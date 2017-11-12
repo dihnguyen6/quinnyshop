@@ -63,7 +63,6 @@ body {
 	width: 900px;
 	height: auto;
 	margin: 52px auto;
-	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #006600;
 }
@@ -101,7 +100,7 @@ body {
 	height: auto;
 }
 
-#auswahl {
+.auswahl {
     /*margin-top: 165px;*/
 	width: inherit;
 	/*border: thin grey solid;*/
@@ -115,15 +114,15 @@ body {
 	height: auto;
 }
 
-#w_info {
-	margin-top: 50px;
+.w_info {
+	margin-top: 180px;
 	width: inherit;
 	/*border: thin #cccccc solid;*/
 	height: auto;
 	text-align: left;
 }
 
-#w_li_info {
+.w_li_info {
 	/*border: thin black solid;*/
 	float: left;
 	width: 240px;
@@ -132,11 +131,11 @@ body {
 	text-align: left;
 }
 
-#w_li_info li {
+.w_li_info li {
 	line-height: 7px;
 	font-size: 1.125em;
 }
-#w_w_info {
+.w_w_info {
 	/*border: thin black solid;*/
 	width: auto;
 	height: auto;

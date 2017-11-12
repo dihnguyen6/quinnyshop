@@ -80,15 +80,14 @@
 }
 
 .carousel-indicators label {
-    width: 17%;
+    width: 13.2%;
     /*float: left;*/
     display: inline-block;
     border:thin black solid;
-    margin: auto 7px;
+    margin: auto 1px;
 }
 .carousel-indicators li {
     display: inline-block;
-    margin: 0 5px;
 }
 
 .carousel-indicators li img {
