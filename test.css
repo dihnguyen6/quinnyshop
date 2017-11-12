@@ -75,29 +75,34 @@
 .carousel-indicators {
     list-style: none;
     position: relative;
-    border: thin black solid;
+    /*border: thin black solid;*/
+    left: -20px;
 }
-.carousel-indicators ol {
-    float: left;
+
+.carousel-indicators label {
+    width: 17%;
+    /*float: left;*/
+    display: inline-block;
+    border:thin black solid;
+    margin: auto 7px;
 }
 .carousel-indicators li {
-    display: block;
+    display: inline-block;
     margin: 0 5px;
 }
 
 .carousel-indicators li img {
-    width: 5%;
+    width: 100%;
 }
 
 .carousel-bullet:hover {
     color: #aaaaaa;
 }
 .carousel-bullet {
-            color: red;
-            cursor: pointer;
-            display: block;
-            font-size: 35px;
-        }
+    cursor: pointer;
+    /*border: thin red solid;*/
+}
+
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
