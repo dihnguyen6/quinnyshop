@@ -1,0 +1,72 @@
+
+a, a:visited, a:hover {}
+#container {
+position:relative;
+width:inherit;
+height:auto;
+background:#ffffff;     
+border:thin black solid;
+margin:3em auto;
+
+}
+#container a.pics {
+float:left;
+display:inline;
+color:#000;
+text-decoration:none;
+cursor:default;
+}
+#container a.pics img.thumb {
+max-height: 120px;
+max-width: 120px;
+display:block;
+}
+#container a.pics span {
+display:none;
+width:inherit;
+background:#fff;      
+text-align:center;
+}
+#container a.pics span img {
+margin:10px auto;
+border:none;
+}
+#container a.pics:hover {
+white-space:normal;
+}
+#container a.pics:hover img.thumb {
+opacity: 0.5;
+}
+#container a.pics:hover span {
+display:block;
+position:absolute;
+left:0px; top:-10px;
+z-index:10;
+
+}
+#container a.pics:focus {
+outline:0;
+}
+#container a.pics:focus img.thumb {
+opacity: 0.5;
+}
+#container a.pics:focus span {
+display:block;
+position:absolute;
+left:8px; top:90px;
+z-index:5;
+outline:0;
+}
+#container span.info {
+border: thin red solid;
+display:block;
+text-align:center;
+width:inherit;
+z-index:1;
+}
+#container span.info a {
+color:transparent;
+}
+#container span.info a:hover {
+text-decoration:none;
+}

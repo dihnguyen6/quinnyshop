@@ -1,0 +1,271 @@
+body {
+	/*border: thin black solid;*/
+	font-size: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.achtung {
+	color: #FF0000;	
+}
+
+#wrap {
+	/*border: thin black solid;*/
+	padding-top: 20px;
+	width: 100%;
+	margin: 0px auto;
+}
+
+#masthead {
+	/*border: thin black solid;*/
+	width: 100%;
+	height: 10%;
+	float: left;
+	margin-top: -20px;
+}
+
+#masthead a {
+	float: right;
+	padding-left: 25px;
+	padding-right: 25px;
+	border: thin red solid;
+	text-decoration: none;
+}
+
+#masthead img {
+	/*border: thin black solid;*/
+}
+
+/******************************** Anfang des Inhalt ***********************************/
+
+#content {
+	/*border: thin black solid;*/
+	width: 75%;
+	height: auto;
+	float: right;
+	
+}
+
+#o_content {
+	/*border: thin red solid;*/
+	height: auto;
+	width: 100%;
+	margin-top: 0px;
+}
+#m_content {
+	/*border: thin black red;*/
+	background-image: url(http://www.quinnyshop.de/eBay-store/images/Artk_beschreibung.gif);
+	width: 100%;
+	height: 52px;
+	float: right;
+}
+#be_content {
+	/*border: thin black solid;*/
+	width: 900px;
+	height: auto;
+	margin: 52px auto;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #006600;
+}
+
+#beschreibung {
+	width: inherit;
+	/*border: thin red solid;*/
+	height: auto;
+	text-align: center;
+}
+
+#beschreibung h1 {
+	font-weight: 700;
+	font-size: 1.125em;
+	line-height: 35px;
+}
+
+#beschreibung h2 {
+	font-weight: lighter;
+	font-size: 1.125em;
+	font-style: italic;
+	margin-bottom: 50px;
+}
+
+#beschreibung h3 {
+	margin-left: 50px;
+	font-size: 1.125em;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+#b_bild {
+	width: inherit;
+	/*border: thin blue solid;*/
+	height: auto;
+}
+
+#auswahl {
+    /*margin-top: 165px;*/
+	width: inherit;
+	/*border: thin grey solid;*/
+	height: auto;
+}
+
+#teil_auswahl {
+	width: inherit;
+	/*border: thin green solid;*/
+	float: left;
+	height: auto;
+}
+
+#w_info {
+	margin-top: 50px;
+	width: inherit;
+	/*border: thin #cccccc solid;*/
+	height: auto;
+	text-align: left;
+}
+
+#w_li_info {
+	/*border: thin black solid;*/
+	float: left;
+	width: 240px;
+	height: auto;
+	margin: 10px 12px;
+	text-align: left;
+}
+
+#w_li_info li {
+	line-height: 7px;
+	font-size: 1.125em;
+}
+#w_w_info {
+	/*border: thin black solid;*/
+	width: auto;
+	height: auto;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+	font-size: 1.125em;
+}
+
+/******************************** Ende des Inhalt ***********************************/
+
+/******************************** Anfang der Navigation **********************************/
+
+#obernav {
+	/*border: thin black solid;*/
+	background-image: url(http://www.quinnyshop.de/eBay-store/images/menu_bg.jpg); 
+	height: 36px;
+	width: inherit;
+	clear: both;
+}
+
+#mainnav {
+	/*border: thin black solid;*/
+	width: 220px;
+	height: auto;
+	float: left;
+}
+
+
+#mainnav p {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.85em;
+	font-weight: lighter;
+	line-height: 27px;
+}
+#m_search {
+	/*border: thin red solid;*/
+	width: 250px;
+	height: 70px;
+	align-content: center;
+	padding-top: 30px;
+}
+
+#kator {
+	/*border: thin red solid;*/
+	background-image: url(http://www.quinnyshop.de/eBay-store/images/kategorien_bg.jpg) ;
+	width: 225px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 0.9em;
+	font-weight: lighter;
+	color: #006600;
+	
+}
+
+#kator ol {
+	/*border: thin blue solid;*/
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: block;
+	
+}
+
+#kator ol li {
+	border-bottom: #CCCCCC 1px solid;	
+	padding-left: 3px;
+	/*width: 220px;*/
+	padding-left: 0px;
+}
+
+#kator li a {
+	text-decoration: none;
+	color: black;
+	/*padding-bottom: 20px;*/
+	display: block;
+	/*width: 220px;*/
+	padding-left: 5px;
+}
+
+#kator a:hover {
+	color:#009;
+	background-color: #cdcdcd;
+	padding-left: 5px;
+}
+
+#kator li {
+	line-height: 40px;
+}
+
+#kator ul {
+	padding-left: 20px;
+}
+
+#kator ul li {
+	border: none;
+}
+
+#kator li {
+	line-height: 35px;	
+}
+
+/******************************** Ende der Navigation **********************************/
+
+/******************************** Anfang der Footer ***********************************/
+#footer {
+	/*border: thin black solid;*/
+	width: 100%;
+	height: 200px;
+	clear: both;
+}
+
+#o_footer {
+	/*border: thin red solid;*/
+	font-family: Arial, Helvetica, sans-serif;
+	color: #006600;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+	height: 130px;
+	padding-top: 13px;
+}
+#u_footer {
+	/*border: thin black solid;*/
+	background-image: url(http://www.quinnyshop.de/eBay-store/images/footer.jpg);
+	background-repeat: no-repeat;
+	margin-bottom: 0px;
+	height: 36px;
+	width: inherit;
+}
+
+/******************************** Ende der Footer ********************************/
