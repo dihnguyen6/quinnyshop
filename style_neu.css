@@ -1,0 +1,161 @@
+/*
+ * Cấu trúc trang web
+ */	
+html {
+	font-size: 100%;
+}
+body {
+	/* !!!! fixed size */
+	width: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+	align-content: center;
+}
+img {
+	max-width:100%;
+	height: auto;
+}
+#wrap {
+	width: 100%;
+	height: auto;
+	border: thin blue solid;
+}
+
+#masthead {
+	/* !!!! Chưa hoàn chỉnh */
+	width: inherit;
+	height: 6.546275395%;
+	border: thin black solid;*
+}
+
+#o_nav {
+	/* !!!!! fixed size */
+	width: inherit;
+	height: 36px;
+	background-image: url(http://www.quinnyshop.de/eBay-store/images/menu_bg.jpg);
+	clear: both;
+	border: thin black solid;
+}
+
+#nav_search {
+	/* Chưa hoàn chỉnh */
+	width: 100%;
+	/*height: 3.56049%;*/
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#cator {
+	background-image: url(http://www.quinnyshop.de/eBay-store/images/kategorien_bg.jpg) ;
+	background-repeat: repeat-y;
+	font-size: 0.9rem;
+	width: 90%;
+	margin-bottom: 10%;
+	border: thin red solid;
+}
+#cator ol {
+	margin-top: 0px;
+	margin-left: -40px;
+	list-style-type: none;
+	display: block;
+}
+
+#info{
+	width: 90%;
+	text-align: center;
+	font-size: 0.9rem;
+	line-height: 250%;
+	border: thin red solid;
+}
+
+#cator a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	line-height: 300%
+}
+
+#cator a:hover {
+	color:#009;
+	background-color: #cdcdcd;
+}
+
+#o_content {
+	width: 100%;
+	height: 3.369065%;
+	padding-bottom: 35px;
+}
+#m_content {
+	width: 100%;
+	height: 100px;
+	float: right;
+	border: thin solid black;
+}
+#footer {
+	width: 100%;
+	clear: both;
+	border: thin black solid;
+}
+#o_footer {
+	text-align: center;
+	color: #006600;
+	font-weight: bold;
+	line-height: 150%;
+}
+#u_footer {
+	border: thin black solid;
+	background-image: url(http://www.quinnyshop.de/eBay-store/images/footer.jpg);
+	background-repeat: repeat;
+	margin-bottom: 0px;
+	height: 36px;
+	width: 100%;
+}
+
+.left_side {
+	float: left;
+	height: auto;
+	width: 21.666666667%;
+	border: thin red solid;
+}
+
+.right_side {
+	float: right;
+	height: auto;
+	width: 74.833333333%;
+	border: thin red solid;
+}
+
+.li_style {
+	border-bottom: thin #cccccc solid;
+}
+.list_disc {
+	list-style-type: disc;
+	border: none;
+	color: #006600;
+}
+.pic_width{
+	width: 100%;
+}
+.pic_height {
+	height: 100%;
+}
+.pic_left {
+	float: left;
+}
+.pic_right {
+	float: right;
+}
+.pic_padleft {
+	padding-left: 7%;
+}
+.text_class_red {
+	color: red;
+}
+img {
+	border: thin red solid;
+}
+[class*="col-"] {
+	float: left;
+}
+@media only screen and (min-device-with: 400px;) {
+	
+}
