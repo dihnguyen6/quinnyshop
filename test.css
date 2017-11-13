@@ -68,7 +68,17 @@
 #carousel-7:checked ~ .control-7,
 #carousel-8:checked ~ .control-8,
 #carousel-9:checked ~ .control-9,
-#carousel-10:checked ~ .control-10{
+#carousel-10:checked ~ .control-10,
+#carousel-11:checked ~ .control-11,
+#carousel-12:checked ~ .control-12,
+#carousel-13:checked ~ .control-13,
+#carousel-14:checked ~ .control-14,
+#carousel-15:checked ~ .control-15,
+#carousel-16:checked ~ .control-16,
+#carousel-17:checked ~ .control-17,
+#carousel-18:checked ~ .control-18,
+#carousel-19:checked ~ .control-19,
+#carousel-20:checked ~ .control-20{
     display: block;
 }
 
@@ -83,7 +93,7 @@
     width: 13.2%;
     /*float: left;*/
     display: inline-block;
-    border:thin black solid;
+    border:1.8px black solid;
     margin: auto 1px;
 }
 .carousel-indicators li {
@@ -111,6 +121,16 @@
 #carousel-7:checked ~ .control-7 ~ .carousel-indicators li:nth-child(7) .carousel-bullet,
 #carousel-8:checked ~ .control-8 ~ .carousel-indicators li:nth-child(8) .carousel-bullet,
 #carousel-9:checked ~ .control-9 ~ .carousel-indicators li:nth-child(9) .carousel-bullet,
-#carousel-9:checked ~ .control-10 ~ .carousel-indicators li:nth-child(10) .carousel-bullet{
+#carousel-10:checked ~ .control-10 ~ .carousel-indicators li:nth-child(10) .carousel-bullet,
+#carousel-11:checked ~ .control-11 ~ .carousel-indicators li:nth-child(11) .carousel-bullet,
+#carousel-12:checked ~ .control-12 ~ .carousel-indicators li:nth-child(12) .carousel-bullet,
+#carousel-13:checked ~ .control-13 ~ .carousel-indicators li:nth-child(13) .carousel-bullet,
+#carousel-14:checked ~ .control-14 ~ .carousel-indicators li:nth-child(14) .carousel-bullet,
+#carousel-15:checked ~ .control-15 ~ .carousel-indicators li:nth-child(15) .carousel-bullet,
+#carousel-16:checked ~ .control-16 ~ .carousel-indicators li:nth-child(16) .carousel-bullet,
+#carousel-17:checked ~ .control-17 ~ .carousel-indicators li:nth-child(17) .carousel-bullet,
+#carousel-18:checked ~ .control-18 ~ .carousel-indicators li:nth-child(18) .carousel-bullet,
+#carousel-19:checked ~ .control-19 ~ .carousel-indicators li:nth-child(19) .carousel-bullet,
+#carousel-20:checked ~ .control-20 ~ .carousel-indicators li:nth-child(20) .carousel-bullet{
     color: #428bca;
 }
