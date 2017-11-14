@@ -86,15 +86,12 @@
     list-style: none;
     position: relative;
     /*border: thin black solid;*/
-    left: -20px;
+    padding: 0px;
+    margin-top: 25px;
 }
-
-.carousel-indicators label {
-    width: 13.2%;
-    /*float: left;*/
-    display: inline-block;
-    border:1.8px black solid;
-    margin: auto 1px;
+.carousel-indicators ol {
+    margin: 0px;
+    
 }
 .carousel-indicators li {
     display: inline-block;
@@ -102,6 +99,15 @@
 
 .carousel-indicators li img {
     width: 100%;
+}
+
+.carousel-indicators label {
+    width: 13.2%;
+    /*float: left;*/
+    display: inline-block;
+    border:1.8px black solid;
+    margin-left: 3.3px;
+    margin-top: 2.5px;
 }
 
 .carousel-bullet:hover {

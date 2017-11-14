@@ -97,16 +97,19 @@ body {
 #b_bild {
 	width: inherit;
 	/*border: thin blue solid;*/
-	height: auto;
 }
 
 .auswahl {
-    /*margin-top: 165px;*/
+    margin-top: 40px;
+    padding: 0px;
 	width: inherit;
 	/*border: thin grey solid;*/
 	height: auto;
+    clear: both;
 }
-
+.extraTop {
+    margin-top: 150px;
+}
 #teil_auswahl {
 	width: inherit;
 	/*border: thin green solid;*/
@@ -115,7 +118,7 @@ body {
 }
 
 .w_info {
-	margin-top: 180px;
+    padding: 0px;
 	width: inherit;
 	/*border: thin #cccccc solid;*/
 	height: auto;
@@ -124,13 +127,14 @@ body {
 
 .w_li_info {
 	/*border: thin black solid;*/
-	float: left;
+    float: left;
 	width: 240px;
 	height: auto;
-	margin: 10px 12px;
+    margin 10px 15px;
 	text-align: left;
 }
-
+.w_li_info ul {
+}
 .w_li_info li {
 	line-height: 7px;
 	font-size: 1.125em;
