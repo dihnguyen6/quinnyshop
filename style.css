@@ -120,18 +120,16 @@ body {
 .w_info {
     padding: 0px;
 	width: inherit;
-	/*border: thin #cccccc solid;*/
+	border: thin #cccccc solid;
 	height: auto;
-	text-align: left;
+	text-align: left; 
 }
 
 .w_li_info {
-	/*border: thin black solid;*/
+	border: thin black solid;
     float: left;
-	width: 240px;
+    width: 448px;
 	height: auto;
-    margin 10px 15px;
-	text-align: left;
 }
 .w_li_info ul {
 }
